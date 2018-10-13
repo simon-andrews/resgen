@@ -111,3 +111,6 @@ venv.bak/
 *.out
 *.pdf
 *.gz
+
+# resgen
+resgen/tmp/
