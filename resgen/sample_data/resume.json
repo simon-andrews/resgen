@@ -31,10 +31,32 @@
           "location": "Silicon Valley, CA",
           "bullets": [
             {
-              "text": "Wrote huge code that enabled server uptime by 400\\%"
+              "text": "Wrote a web server in Java",
+              "tags": ["java"]
             },
             {
-              "text": "Used planet-scale refactoring on legacy codebase"
+              "text": "Programmed a robot with C++ and Python",
+              "tags": ["c++", "python"]
+            },
+            {
+              "text": "Made a website with HTML, CSS, and javascript",
+              "tags": ["css", "html", "javascript"]
+            },
+            {
+              "text": "Made a FANCY website with SASS, TypeScript, and Node.js",
+              "tags": ["sass", "typescript", "node.js"]
+            },
+            {
+              "text": "Wrote deployment script in Bash",
+              "tags": ["bash"]
+            },
+            {
+              "text": "Reimplemented Hadoop with Rust",
+              "tags": ["rust", "hadoop"]
+            },
+            {
+              "text": "Condescendingly explained zygohistomorphic prepromophisms in Haskell",
+              "tags": ["haskell"]
             }
           ]
         },
@@ -45,10 +67,20 @@
           "location": "Silicon Valley, CA",
           "bullets": [
             {
-              "text": "Wrote huge code that enabled server uptime by 400\\%"
+              "text": "Achieved fearless concurrency on a React website with Go",
+              "tags": ["go", "react"]
             },
             {
-              "text": "Used planet-scale refactoring on legacy codebase"
+              "text": "Made many custom types with OCaml for a TensorFlow binding",
+              "tags": ["ocaml", "tensorflow"]
+            },
+            {
+              "text": "Blogged on Medium about using Angular in my Django app",
+              "tags": ["angular", "django"]
+            },
+            {
+              "text": "Made Ruby library run faster by writing parts of it in C",
+              "text": ["ruby", "c"]
             }
           ]
         }
@@ -61,6 +93,7 @@
           "role": "Calculator app written in \\textbf{Swift}",
           "at": "iOS Calculator++",
           "location": "",
+          "tags": ["ios", "swift"],
           "bullets": [
             {
               "text": "Calculator for iOS devices with support for all ten digits"
@@ -75,6 +108,7 @@
           "role": "Personal blog written in \\textbf{Python} and \\textbf{Django}",
           "at": "Link me on /r/programming",
           "location": "",
+          "tags": ["python", "django"],
           "bullets": [
             {
               "text": "Blogging application serving tens of views per year"
