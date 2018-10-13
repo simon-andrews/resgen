@@ -25,4 +25,5 @@ if __name__ == '__main__':
     r = ResumeManager('sample_data/resume.json')
     import pprint
     pprint.pprint(r.get_sections())
-    print(r.render())
+    with open('/tmp/test/test.tex', 'w') as f:
+        f.write(r.render())

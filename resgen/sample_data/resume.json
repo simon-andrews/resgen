@@ -28,7 +28,7 @@
           "at": "MicroGoogBookZon",
           "location": "Silicon Valley, CA",
           "bullets": [
-            "Wrote huge code that enabled server uptime by 400%",
+            "Wrote huge code that enabled server uptime by 400\\%",
             "Used planet-scale refactoring on legacy codebase"
           ]
         },
@@ -38,7 +38,7 @@
           "at": "MicroGoogBookZon",
           "location": "Silicon Valley, CA",
           "bullets": [
-            "Wrote huge code that enabled server uptime by 400%",
+            "Wrote huge code that enabled server uptime by 400\\%",
             "Used planet-scale refactoring on legacy codebase"
           ]
         }
