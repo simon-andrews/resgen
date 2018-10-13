@@ -22,7 +22,7 @@ languages = {
         'C', 'C#', 'C++', 'CSS',
         'Go', 'Groovy',
         'HTML',
-        'JavaScript',
+        'Java', 'JavaScript',
         'Kotlin',
         'MATLAB',
         'Objective-C',
