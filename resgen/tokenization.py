@@ -21,7 +21,7 @@ def clean_word_list(word_list):
 
 # converts a job listing string into a list of useful words, in an easy to use
 # "normalized" format
-def listify(job_listing):
+def tokenize(job_listing):
     words = nltk.word_tokenize(job_listing) # tokenize
     words = clean_word_list(words) # get rid of extra garbage
     words = list(set(words)) # remove duplicates

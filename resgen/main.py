@@ -1,8 +1,8 @@
 from listings import fidelity_listing
-import parsing
+import tokenization
 
 def test_parsing_listing():
-    tokens = parsing.listify(fidelity_listing)
+    tokens = tokenization.tokenize(fidelity_listing)
     for token in tokens:
         print('- ' + token)
     print('Found ' + str(len(tokens)) + ' tokens')
