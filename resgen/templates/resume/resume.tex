@@ -9,10 +9,18 @@
 % personal data
 \firstname{(( data["first_name"] ))}
 \familyname{(( data["family_name"] ))}
-\mobile{(( data["mobile"] ))}
-\email{(( data["email"])) }
-\social[github]{(( data["github"] ))}
-\social[linkedin]{(( data["linkedin"] ))}
+(@ if data["mobile"] @)
+  \mobile{(( data["mobile"] ))}
+(@ endif @)
+(@ if data["email"] @)
+  \email{(( data["email"])) }
+(@ endif @)
+(@ if data["github"] @)
+  \social[github]{(( data["github"] ))}
+(@ endif @)
+(@ if data["linkedin"] @)
+  \social[linkedin]{(( data["linkedin"] ))}
+(@ endif @)
 
 \begin{document}
 
