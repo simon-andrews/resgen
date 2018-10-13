@@ -17,23 +17,32 @@ variable_name = {
 
 languages = {
     'data': [
-        'assembly',
-        'bash',
-        'c', 'c#', 'c++', 'css',
-        'go', 'groovy',
-        'html',
-        'java', 'javascript',
+        'assembly', 'ada', 'alef'
+        'bash', 'beanshell',
+        'c', 'c#', 'c++', 'css', 'chapel', 'clojure', 'clu', 'cyclone', 'crystal', 
+        'd', 'dart', 'dylan',
+        'eiffel', 'ecmascript', 'erlang', 'elm', 'elixir',
+        'fantom', 'f#',
+        'go', 'groovy', 'gambas', 'genie',
+        'html', 'hack', 'haxe', 'haskell', 'hermes',
+        'idris', 'icon', 'intercal',
+        'java', 'javascript', 'j#', 'j++',
         'kotlin',
-        'matlab',
-        'objective-c',
+        'lua', 'limbo',
+        'matlab', 'mesa', 'modula-3', 'ml', 'monkey',
+        'nim', 'newsqueak', 'nil', 'nemerle', 
+        'objective-c', 'oberon', 'ocaml', 'oxygene',
         'perl', 'php', 'python',
-        'r', 'ruby',
-        'scala', 'sql', 'swift',
-        'typescript',
-        'vb.net', 'vba',
+        'qore',
+        'r', 'ruby', 'rust', 'ring', 'racket',
+        'scala', 'sql', 'swift', 'seed7', 'simula', 'scheme', 'standard ml', 'smalltalk', 'strongtalk',
+        'typescript', 'tcl',
+        'ucsd pascal',
+        'vb.net', 'vba', 'vala',
     ],
     'aliases': {
         'html': ['html5'],
+        'bash': ['bourne shell'],
     }
 }
 
