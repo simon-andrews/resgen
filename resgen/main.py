@@ -1,11 +1,12 @@
-import tokenization
 import data
+import listings
+import tokenization
 
 def test_parsing_listing():
-    tokens = tokenization.tokenize(data.fidelity_listing)
-    for token in tokens:
-        print('- ' + token)
-    print('Found ' + str(len(tokens)) + ' tokens')
+    fidelity_listing = listings.Listing(data.fidelity_listing)
+    for token in fidelity_listing.tokens:
+        print(' - ' + token)
+    print('Found ' + str(len(fidelity_listing.tokens)) + ' tokens')
 
 def test_is_data():
     assert data.is_data('C', data.languages) # check regular language
