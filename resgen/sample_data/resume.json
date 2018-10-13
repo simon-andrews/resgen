@@ -1,0 +1,115 @@
+{
+  "first_name": "John",
+  "family_name": "Smith",
+  "mobile": "(123) 456-7890",
+  "email": "someone@example.com",
+  "github": "john-smith",
+  "linkedin": "john-smith",
+
+  "sections": {
+    "Education": {
+      "entries": [
+        {
+          "dates": "Sep 2018 -- May 2022",
+          "role": "Candidate for a B.S. in Computer Science",
+          "at": "University of Massachusetts Amherst",
+          "location": "Amherst, MA",
+          "bullets": [
+            "Relevant courses: Introduction to Problem Solving with Java, Programming with Data Structures"
+          ]
+        }
+      ]
+    },
+    "Work Experience": {
+      "entries": [
+        {
+          "dates": "May 2018 -- Aug 2018",
+          "role": "Software Development Intern",
+          "at": "MicroGoogBookZon",
+          "location": "Silicon Valley, CA",
+          "bullets": [
+            "Wrote huge code that enabled server uptime by 400%",
+            "Used planet-scale refactoring on legacy codebase"
+          ]
+        },
+        {
+          "dates": "May 2017 -- Aug 2017",
+          "role": "Software Development Intern",
+          "at": "MicroGoogBookZon",
+          "location": "Silicon Valley, CA",
+          "bullets": [
+            "Wrote huge code that enabled server uptime by 400%",
+            "Used planet-scale refactoring on legacy codebase"
+          ]
+        }
+      ]
+    },
+    "Projects": {
+      "entries": [
+        {
+          "dates": "",
+          "role": "Calculator app written in \\textbf{Swift}",
+          "at": "iOS Calculator++",
+          "location": "",
+          "bullets": [
+            "Calculator for iOS devices with support for all ten digits",
+            "Capable of doing monster math"
+          ]
+        },
+        {
+          "dates": "",
+          "role": "Personal blog written in \\textbf{Python} and \\textbf{Django}",
+          "at": "Link me on /r/programming",
+          "location": "",
+          "bullets": [
+            "Blogging application serving tens of views per month",
+            "Features ``submit to reddit'' link at the beginning and end of every blog post",
+            "Please like my articles /r/programming",
+            "I crave the validation of arrogant hipsters",
+            "Please"
+          ]
+        }
+      ]
+    },
+    "Extracurriculars": {
+      "lines": [
+        {
+          "primary": "UMass ACM",
+          "secondary": "Go to meetings and talk about stuff I guess I dunno"
+        },
+        {
+          "primary": "UMass Women in Computer Science",
+          "secondary": "Go to more meetings and talk about more stuff"
+        }
+      ]
+    },
+    "Skills": {
+      "computers": [
+        {
+          "primary1": "Languages",
+          "secondary1": "Java, C, Scala, Swift",
+          "primary2": "Hardware",
+          "secondary2": "Raspberry Pi, Arduino"
+        },
+        {
+          "primary1": "Libraries",
+          "secondary1": "JUnit, Django",
+          "primary2": "Software",
+          "secondary2": "Git, Linux, \\LaTeX"
+        }
+      ]
+    },
+    "Languages": {
+      "languages": [
+        {
+          "name": "English",
+          "proficiency": "Native tongue"
+        },
+        {
+          "name": "French",
+          "proficiency": "Elementary proficiency"
+        }
+      ]
+    }
+  }
+}

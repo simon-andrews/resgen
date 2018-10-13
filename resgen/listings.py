@@ -8,7 +8,6 @@ class Listing:
         self.tokens = tokenization.tokenize(self.text)
         self.languages = set()
         self.frameworks_and_tools = set()
-    # TODO: handle multi-word skills
     def _update_skill(self, skill_structure, skill_set):
         detected_skills = skills.find_skills(self.tokens, skill_structure)
         for skill in detected_skills:
