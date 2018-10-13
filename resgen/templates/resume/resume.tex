@@ -37,7 +37,7 @@
       {}
       {
         \begin{itemize}
-        (@ for bullet in entry["bullets"] @) \item (( bullet )) (@ endfor @)
+        (@ for bullet in entry["bullets"] @) \item (( bullet["text"] )) (@ endfor @)
         \end{itemize}
       }
   (@ endfor @)

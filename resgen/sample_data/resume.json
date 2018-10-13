@@ -15,7 +15,9 @@
           "at": "University of Massachusetts Amherst",
           "location": "Amherst, MA",
           "bullets": [
-            "Relevant courses: Introduction to Problem Solving with Java, Programming with Data Structures"
+            {
+              "text": "Relevant courses: Introduction to Problem Solving with Java, Programming with Data Structures"
+            }
           ]
         }
       ]
@@ -28,8 +30,12 @@
           "at": "MicroGoogBookZon",
           "location": "Silicon Valley, CA",
           "bullets": [
-            "Wrote huge code that enabled server uptime by 400\\%",
-            "Used planet-scale refactoring on legacy codebase"
+            {
+              "text": "Wrote huge code that enabled server uptime by 400\\%"
+            },
+            {
+              "text": "Used planet-scale refactoring on legacy codebase"
+            }
           ]
         },
         {
@@ -38,8 +44,12 @@
           "at": "MicroGoogBookZon",
           "location": "Silicon Valley, CA",
           "bullets": [
-            "Wrote huge code that enabled server uptime by 400\\%",
-            "Used planet-scale refactoring on legacy codebase"
+            {
+              "text": "Wrote huge code that enabled server uptime by 400\\%"
+            },
+            {
+              "text": "Used planet-scale refactoring on legacy codebase"
+            }
           ]
         }
       ]
@@ -52,8 +62,12 @@
           "at": "iOS Calculator++",
           "location": "",
           "bullets": [
-            "Calculator for iOS devices with support for all ten digits",
-            "Capable of doing monster math"
+            {
+              "text": "Calculator for iOS devices with support for all ten digits"
+            },
+            {
+              "text": "Capable of doing monster math"
+            }
           ]
         },
         {
@@ -62,11 +76,21 @@
           "at": "Link me on /r/programming",
           "location": "",
           "bullets": [
-            "Blogging application serving tens of views per month",
-            "Features ``submit to reddit'' link at the beginning and end of every blog post",
-            "Please like my articles /r/programming",
-            "I crave the validation of arrogant hipsters",
-            "Please"
+            {
+              "text": "Blogging application serving tens of views per year"
+            },
+            {
+              "text": "Features ``submit to reddit'' link at the beginning and end of every blog post"
+            },
+            {
+              "text": "Please like my articles /r/programming"
+            },
+            {
+              "text": "I crave the validation of arrogant hipsters"
+            },
+            {
+              "text": "Please"
+            }
           ]
         }
       ]
