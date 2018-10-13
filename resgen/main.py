@@ -1,9 +1,8 @@
-from listings import fidelity_listing
 import tokenization
 import data
 
 def test_parsing_listing():
-    tokens = tokenization.tokenize(fidelity_listing)
+    tokens = tokenization.tokenize(data.fidelity_listing)
     for token in tokens:
         print('- ' + token)
     print('Found ' + str(len(tokens)) + ' tokens')
@@ -14,4 +13,4 @@ def test_is_data():
 
 if __name__ == '__main__':
     test_is_data()
-    #test_parsing_listing()
+    test_parsing_listing()
