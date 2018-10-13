@@ -11,7 +11,7 @@ def clean_word_list(word_list):
     for word in word_list:
         word = clean_word(word)
         try:
-            assert word not in ['.', ',', '(', ')', '\'', '"', ':', ';', '/'] # remove punctuation
+            assert word not in ['.', ',', '(', ')', '\'', '"', ':', ';', '/', '•'] # remove punctuation
             assert not word.isnumeric() # remove numbers
             assert word not in nltk.corpus.stopwords.words('english') # remove stopwords (and, or...)
         except AssertionError:

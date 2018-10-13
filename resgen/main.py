@@ -10,6 +10,11 @@ def test_parsing_listing():
     print('Found ' + str(len(fidelity_listing.tokens)) + ' tokens')
     print(fidelity_listing.get_languages())
 
+    print('### GOOGLE ###')
+    google_listing = listings.Listing(data.google_listing)
+    print(google_listing.get_languages())
+    print(google_listing.get_frameworks_and_tools())
+
 def test_is_data():
     assert skills._is_skill('C', data.languages) # check regular language
     assert skills._is_skill('HTML5', data.languages) # check alias

@@ -13,3 +13,11 @@ class Listing:
             if skills.is_language(token):
                 self.languages.add(token)
         return self.languages
+    def get_frameworks_and_tools(self):
+        if hasattr(self, 'frameworks_and_tools'):
+            return self.frameworks_and_tools
+        self.frameworks_and_tools = set()
+        for token in self.tokens:
+            if skills.is_framework_or_tool(token):
+                self.frameworks_and_tools.add(token)
+        return self.frameworks_and_tools

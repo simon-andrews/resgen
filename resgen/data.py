@@ -102,3 +102,86 @@ work after hours on project-related work and pre-scheduled on-call support AWS
 Certification is desirable Excellent communication (written and verbal) and
 interpersonal skills
 """
+
+# https://careers.google.com/jobs?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic#!t=jo&jid=/company/sales-engineer-machine-learning-google-355-main-st-cambridge-ma-02142-usa-3874830108
+google_listing = """
+Note: By applying to this position your application is automatically submitted
+to the following locations: Chicago, IL, USA; New York, NY, USA; Sunnyvale, CA,
+USA; Cambridge, MA, USA; Seattle, WA, USA; San Francisco, CA, USA
+
+The Google Cloud Platform team helps customers transform and evolve their
+business through the use of Google’s global network, web-scale data centers and
+software infrastructure. As part of an entrepreneurial team in this rapidly
+growing business, you will help shape the future of businesses of all sizes use
+technology to connect with customers, employees and partners.
+
+As a Sales Engineer, you will work hand-in-hand with technical Sales teams as a
+machine learning subject matter expert to differentiate Google Cloud to our
+customers. You will help prospective customers and partners understand the power
+of Google Cloud, explaining technical features, helping customers design
+architectures, and problem-solving any potential roadblocks. You will also have
+the opportunity to help customers to leverage specialized machine learning (ML)
+hardware developed by Google, called Tensor Processing Unit (TPU). The TPU is
+Google’s most advanced ML technology and in this role you will work hand-in-hand
+with customers and product development to shape the future of the platform.
+
+Google Cloud helps millions of employees and organizations empower their
+employees, serve their customers, and build what’s next for their business — all
+with technology built in the cloud. Our products are engineered for security,
+reliability and scalability, running the full stack from infrastructure to
+applications to devices and hardware. And our teams are dedicated to helping our
+customers — developers, small and large businesses, educational institutions and
+government agencies — see the benefits of our technology come to life.
+Responsibilities
+• Work with the team to identify and qualify business opportunities, understand
+  key customer technical objections and develop the strategy to resolve
+  technical blockers.
+• Provide in-depth machine learning expertise to support the technical
+  relationship with Google’s customers, including product and solution
+  briefings, proof-of-concept work, and partner directly with product management
+  to prioritize solutions impacting customer adoption to Google Cloud.
+• Work hands-on with customers to demonstrate and prototype Google Cloud product
+  integrations in customer/partner environments.
+• Recommend integration strategies, enterprise architectures, platforms and
+  application infrastructure required to successfully implement a complete
+  solution using best practices on Google Cloud.
+• Travel to customer sites, conferences, and other related events as required.
+
+Qualifications Minimum qualifications:
+• BA/BS degree in Computer Science or Electrical Engineering, or equivalent
+  practical experience.
+• 5 years of experience serving in the capacity of a technical sales engineer in
+  a cloud computing environment or equivalent experience in a customer-facing
+  role (including working as a member of a professional services or systems
+  engineering team).
+• Experience with big data and machine learning frameworks such as Tensorflow,
+  Theano or Caffe, as well as numerical programming frameworks such as Python or
+  MATLAB.
+• Experience presenting and delivering technical pitches.
+
+Preferred qualifications:
+• Master's degree in Computer Science or other technical field.
+• Experience in and understanding of data and information management -
+  especially as it relates to big data trends and issues within businesses.
+• Experience with building machine learning solutions and leveraging specific
+  machine learning architectures (e.g. deep learning, LSTM, convolutional
+  networks, etc).
+• Experience architecting and developing software or infrastructure for
+  scalable, distributed systems.
+• Ability to quickly learn, understand, and work with new emerging technologies,
+  methodologies, and solutions in the Cloud/IT technology space.
+
+At Google, we don’t just accept difference - we celebrate it, we support it, and
+we thrive on it for the benefit of our employees, our products and our
+community. Google is proud to be an equal opportunity workplace and is an
+affirmative action employer. We are committed to equal employment opportunity
+regardless of race, color, ancestry, religion, sex, national origin, sexual
+orientation, age, citizenship, marital status, disability, gender identity or
+Veteran status. We also consider qualified applicants regardless of criminal
+histories, consistent with legal requirements. If you have a disability or
+special need that requires accommodation, please let us know.
+
+To all recruitment agencies: Google does not accept agency resumes. Please do
+not forward resumes to our jobs alias, Google employees or any other company
+location. Google is not responsible for any fees related to unsolicited resumes.
+"""
