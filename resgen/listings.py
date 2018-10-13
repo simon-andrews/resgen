@@ -1,3 +1,4 @@
+import data
 import skills
 import tokenization
 
@@ -8,13 +9,13 @@ class Listing:
         self.languages = set()
         self.frameworks_and_tools = set()
     # TODO: handle multi-word skills
-    def _update_skill(self, predicate, skill_set):
-        for token in self.tokens:
-            if predicate(token):
-                skill_set.add(token)
+    def _update_skill(self, skill_structure, skill_set):
+        detected_skills = skills.find_skills(self.tokens, skill_structure)
+        for skill in detected_skills:
+            skill_set.add(skill)
     def get_languages(self):
-        _update_skill(skills.is_language, self.languages)
+        self._update_skill(data.languages, self.languages)
         return self.languages
     def get_frameworks_and_tools(self):
-        _update_skill(skills.is_framework_or_tool, self.frameworks_and_tools)
+        self._update_skill(data.frameworks_and_tools, self.frameworks_and_tools)
         return self.frameworks_and_tools
