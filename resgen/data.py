@@ -15,17 +15,6 @@ variable_name = {
 }
 """
 
-# is a token inside the dataset (or is an alias)?
-def is_data(token, dataset):
-    for datapoint in dataset['data']:
-        if token == datapoint:
-            return True
-    for aliased_thing in dataset['aliases']:
-        for alias in dataset['aliases'][aliased_thing]:
-            if token == alias:
-                return True
-    return False
-
 languages = {
     'data': [
         'Assembly',
