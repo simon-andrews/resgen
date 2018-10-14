@@ -80,7 +80,7 @@
             },
             {
               "text": "Made Ruby library run faster by writing parts of it in C",
-              "text": ["ruby", "c"]
+              "tags": ["ruby", "c"]
             }
           ]
         }
