@@ -57,7 +57,9 @@ class ResumeManager:
         os.chdir('tmp')
         os.system('pdflatex resume.tex')
         os.chdir(old_cwd)
-        shutil.copyfile('tmp/resume.pdf', 'output/resume-' + str(datetime.datetime.now()) + '.pdf')
+        output_filename = 'output/resume-' + str(datetime.datetime.now()) + '.pdf'
+        shutil.copyfile('tmp/resume.pdf', output_filename)
+        return output_filename
 
 if __name__ == '__main__':
     import pprint
