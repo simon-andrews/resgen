@@ -60,13 +60,16 @@ class ResumeManager:
         shutil.copyfile('tmp/resume.pdf', 'output/resume-' + str(datetime.datetime.now()) + '.pdf')
 
 if __name__ == '__main__':
-    r = ResumeManager('sample_data/resume.json')
     import pprint
     p = pprint.PrettyPrinter(width=200)
-    #pprint.pprint(r.get_sections())
-    #with open('/tmp/test/test.tex', 'w') as f:
-    #    f.write(r.render_tex())
-    #r.render_pdf()
+    r = ResumeManager('sample_data/resume.json')
+    import listings
+    import data
+    l = listings.Listing(data.google_listing)
+    things_to_look_for = l.get_skills()
+    print('highlighting' + str(things_to_look_for))
+    rank_resume(r.data, things_to_look_for)
+    r.render_pdf()
     #print(intersection([2,3,4], [1,2,3]))
-    r = rank_resume(r.data, ['c++', 'python'])
-    p.pprint(r)
+    #r = rank_resume(r.data, ['c++', 'python'])
+    #p.pprint(r)

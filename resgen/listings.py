@@ -18,3 +18,5 @@ class Listing:
     def get_frameworks_and_tools(self):
         self._update_skill(data.frameworks_and_tools, self.frameworks_and_tools)
         return self.frameworks_and_tools
+    def get_skills(self):
+        return list(set(list(self.get_languages()) + list(self.get_frameworks_and_tools())))
