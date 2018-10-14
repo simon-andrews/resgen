@@ -7,6 +7,11 @@ action_words = [
     'Implemented',
     'Optimized',
     'Utilized',
+    'Programmed a robot with',
+    'Split a monolith into microservies using',
+    'Encouraged adoption of',
+    'Wrote unit tests for',
+    'Used Jenkins CI server to test',
 ]
 
 very_cool_things = [
@@ -15,9 +20,9 @@ very_cool_things = [
     'zygohistomorphic prepromophisms',
     'a human-in-the-loop control system',
     'a LISP dialect without parentheses',
-    'a blockchain-based social network',
-    'Browsr.js, the web frontend framework of tomorrow,',
-    'a left-pad reimplementation',
+    'blockchain-based social networks',
+    'Browsr, the web frontend framework of tomorrow,',
+    'left-pad libraries',
 ]
 
 languages = data.languages['data']
@@ -26,7 +31,11 @@ lang_to_tool_chain = [
     'to remove a dependency on',
     'to make web-scale a cluster of servers running',
     'as an excuse to play with',
-    'to optimize a microservice using'
+    'to optimize a microservice using',
+    'to download documentation for',
+    'to justify switching to a stack without',
+    'to prove the fragility of',
+    'to replace a Slack bot made with'
 ]
 
 frameworks_and_tools = data.frameworks_and_tools['data']
