@@ -53,12 +53,6 @@
       {(( computer["primary2"])) }
       {(( computer["secondary2"] ))}
   (@ endfor @)
-  (@ for language in data["sections"][section]["languages"] @)
-    \cvlanguage
-      {(( language["name"] ))}
-      {(( language["proficiency"] ))}
-      {}
-  (@ endfor @)
 (@ endfor @)
 
 \end{document}

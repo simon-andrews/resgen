@@ -111,18 +111,6 @@
           "secondary2": "Git, Linux, \\LaTeX"
         }
       ]
-    },
-    "Languages": {
-      "languages": [
-        {
-          "name": "English",
-          "proficiency": "Native tongue"
-        },
-        {
-          "name": "French",
-          "proficiency": "Elementary proficiency"
-        }
-      ]
     }
   }
 }
