@@ -1,4 +1,3 @@
-
 function post(path, params, method) {
   method = method || "post";
 
@@ -34,6 +33,8 @@ document.addEventListener('DOMContentLoaded', function () {
     chrome.tabs.query({active: true, currentWindow: true}, function (openTabs) {
       var tab = openTabs[0]; //this should work like 99.9% of the time, but not guaranteed
       chrome.tabs.sendMessage(tab.id, {text: 'report_back'}, doStuffWithDom);
+      var spinner = document.getElementById('spinner');
+      spinner.setAttribute('src', 'https://upload.wikimedia.org/wikipedia/commons/3/37/YouTube_loading_symbol_2_%28stable%29.gif');
     });
   });
 });
