@@ -54,30 +54,27 @@
             },
             {
               "text": "Capable of doing monster math"
+            },
+            {
+              "text": "Has gotten many downloads on the Apple App Store"
             }
           ]
         },
         {
           "dates": "",
           "role": "Personal blog written in \\textbf{Python} and \\textbf{Django}",
-          "at": "Link me on /r/programming",
+          "at": "Bloggr",
           "location": "",
           "tags": ["python", "django"],
           "bullets": [
             {
-              "text": "Blogging application serving tens of views per year"
+              "text": "Web scale: handles tens of views per day with ease"
             },
             {
-              "text": "Features ``submit to reddit'' link at the beginning and end of every blog post"
+              "text": "Has a commenting system with threading support"
             },
             {
-              "text": "Please like my articles /r/programming"
-            },
-            {
-              "text": "I crave the validation of arrogant hipsters"
-            },
-            {
-              "text": "Please"
+              "text": "I wish /r/programming liked my blog posts"
             }
           ]
         }
@@ -87,11 +84,15 @@
       "lines": [
         {
           "primary": "UMass ACM",
-          "secondary": "Go to meetings and talk about stuff I guess I dunno"
+          "secondary": "I go to meetings and talk about technology"
         },
         {
           "primary": "UMass Women in Computer Science",
-          "secondary": "Go to more meetings and talk about more stuff"
+          "secondary": "More meetings, more technology"
+        },
+        {
+          "primary": "Research assistant with Soandso Lab",
+          "secondary": "This is where I \\textit{do} technology, but I also talk about it too"
         }
       ]
     },
