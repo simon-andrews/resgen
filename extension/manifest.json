@@ -2,7 +2,7 @@
 	"name": "ResGen",
 	"version": "1.0",
 	"description": "Tailor-made resume generator",
-	"page_action": {
+	"browser_action": {
   	"default_popup": "resgen.htm"
   },
 	"manifest_version": 2
