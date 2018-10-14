@@ -23,6 +23,9 @@ function post(path, params, method) {
 function doStuffWithDom(domContent) {
   post('http://127.0.0.1:5000/genresume', {data: domContent});
   console.log(domContent);
+  setTimeout(function() {
+    chrome.tabs.create({url: "http://127.0.0.1:5000"});
+  }, 5000);
 }
 
 document.addEventListener('DOMContentLoaded', function () {
