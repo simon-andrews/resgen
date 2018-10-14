@@ -1,3 +1,4 @@
+from flask import Flask
 import data
 import listings
 import skills
@@ -16,4 +17,11 @@ def test_parsing_listing():
     print(google_listing.get_frameworks_and_tools())
 
 if __name__ == '__main__':
-    test_parsing_listing()
+    #test_parsing_listing()
+    app = Flask(__name__)
+
+    @app.route('/')
+    def hello():
+        return "Hello, world!"
+
+    app.run(debug=True)
