@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from flask import Flask, request, send_from_directory
+from flask import Flask, request, send_from_directory, render_template
 import data
 import listings
 import resumes
@@ -44,6 +44,6 @@ if __name__ == '__main__':
 
         outpath = r.render_pdf()
 
-        return outpath
+        return render_template('resume_display.html', skills=things_to_look_for)
 
     app.run(debug=True)

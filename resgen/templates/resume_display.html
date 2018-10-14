@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+	  <title>ResGen rendered template!</title>
+	</head>
+
+	<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">ResGen</a>
+		</nav>
+    <div class="container">
+      <br />
+			<div class="row">
+        <div class="col-md-8">
+          <center><embed src="https://arxiv.org/pdf/1606.01540.pdf" width="100%" height="900" type='application/pdf'></center>
+        </div>
+        <div class="col-md-4">
+          <h1>Your completed resume!</h1>
+          <p>We tried to highlight your experience with:</p>
+          <ul>
+            {% for skill in skills %}
+              <li>{{ skill }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+			</div>
+		</div>
+	</body>
+</html>
