@@ -1,6 +1,7 @@
-from flask import Flask
+from flask import Flask, request
 import data
 import listings
+import resumes
 import skills
 import tokenization
 
@@ -23,5 +24,19 @@ if __name__ == '__main__':
     @app.route('/')
     def hello():
         return "Hello, world!"
+
+    @app.route('/genresume', methods=['POST'])
+    def genresume():
+        listing_data = request.form['data']
+
+        l = listings.Listing(listing_data)
+        r = resumes.ResumeManager('sample_data/resume.json')
+
+        things_to_look_for = l.get_skills()
+        resumes.rank_resume(r.data, things_to_look_for)
+
+        outpath = r.render_pdf()
+
+        return "hello, world"
 
     app.run(debug=True)
