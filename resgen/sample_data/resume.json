@@ -27,8 +27,8 @@
         {
           "dates": "May 2018 -- Aug 2018",
           "role": "Software Development Intern",
-          "at": "MicroGoogBookZon",
-          "location": "Silicon Valley, CA",
+          "at": "Hugecorp, Inc.",
+          "location": "New York, NY",
           "bullets": [
             {
               "text": "Wrote a web server in Java",
@@ -62,9 +62,9 @@
         },
         {
           "dates": "May 2017 -- Aug 2017",
-          "role": "Software Development Intern",
-          "at": "MicroGoogBookZon",
-          "location": "Silicon Valley, CA",
+          "role": "Code Artisan",
+          "at": "Startupr.io",
+          "location": "Palo Alto, CA",
           "bullets": [
             {
               "text": "Achieved fearless concurrency on a React website with Go",

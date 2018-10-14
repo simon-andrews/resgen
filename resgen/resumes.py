@@ -34,6 +34,7 @@ def rank_resume(resume, things_to_look_for):
             if key == 'entries':
                 for entry in resume['entries']:
                     entry['bullets'].sort(key=bullet_score)
+                    entry['bullets'] = entry['bullets'][:4] # get first n things
         if type(resume[key]) is dict:
             rank_resume(resume[key], things_to_look_for)
     return resume
