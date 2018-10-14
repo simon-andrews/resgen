@@ -21,10 +21,11 @@ def test_parsing_listing():
 if __name__ == '__main__':
     #test_parsing_listing()
     app = Flask(__name__, static_url_path='')
+    app.config['SKILLS'] = []
 
     @app.route('/')
     def hello():
-        return "Hello, world!"
+        return render_template('resume_display.html', skills=app.config['SKILLS'])
 
     @app.route('/output/<path:path>')
     def output(path):
@@ -34,16 +35,18 @@ if __name__ == '__main__':
     def genresume():
         listing_data = request.form['data']
         listing_data = BeautifulSoup(listing_data, 'html.parser').get_text()
+        print('l: ' + str(len(listing_data)))
 
         l = listings.Listing(listing_data)
         r = resumes.ResumeManager('sample_data/resume.json')
 
         things_to_look_for = l.get_skills()
-        print(things_to_look_for)
+        app.config['SKILLS'] = things_to_look_for
+        print('skills: ' + str(things_to_look_for))
         resumes.rank_resume(r.data, things_to_look_for)
 
         outpath = r.render_pdf()
 
-        return render_template('resume_display.html', skills=things_to_look_for)
+        return outpath
 
     app.run(debug=True)
