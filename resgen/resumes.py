@@ -30,7 +30,6 @@ def rank_resume(resume, things_to_look_for):
             return -len(intersection(bullet['tags'], things_to_look_for))
         return 0
     for key in resume.keys():
-        print(key)
         if type(resume[key]) is list:
             if key == 'entries':
                 for entry in resume['entries']:
@@ -57,7 +56,7 @@ class ResumeManager:
         os.chdir('tmp')
         os.system('pdflatex resume.tex')
         os.chdir(old_cwd)
-        output_filename = 'output/resume-' + str(datetime.datetime.now()) + '.pdf'
+        output_filename = 'output/resume.pdf' #'output/resume-' + str(datetime.datetime.now()) + '.pdf'
         shutil.copyfile('tmp/resume.pdf', output_filename)
         return output_filename
 
