@@ -1,10 +1,9 @@
 {
-	"name": "Getting Started Example",
+	"name": "ResGen",
 	"version": "1.0",
-	"description": "Build an Extension!",
-		"page_action": {
-      		   "default_popup": "popup.html"
-    		},
+	"description": "Tailor-made resume generator",
+	"page_action": {
+  	"default_popup": "resgen.htm"
+  },
 	"manifest_version": 2
 }
-
