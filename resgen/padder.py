@@ -1,6 +1,7 @@
 # generates nonsense resume bullet points
 
 import data
+import json
 import random
 
 action_words = [
@@ -8,7 +9,7 @@ action_words = [
     'Optimized',
     'Utilized',
     'Programmed a robot with',
-    'Split a monolith into microservies using',
+    'Split a monolith into microservices using',
     'Encouraged adoption of',
     'Wrote unit tests for',
     'Used Jenkins CI server to test',
@@ -64,5 +65,7 @@ if __name__ == '__main__':
     except ValueError:
         print('not a number: ' + arg)
         sys.exit(1)
+    bullets = list()
     for i in range(n):
-        print(get_string())
+        bullets.append(get_bullet())
+    print(json.dumps(bullets))

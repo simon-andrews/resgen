@@ -23,6 +23,20 @@ def intersection(list1, list2):
                 ret.add(i)
     return ret
 
+def get_n_bullets(bullets, n):
+    ret = list()
+    for i in range(n):
+        for bullet in bullets:
+            good = True
+            for accepted_bullet in ret:
+                if bullet['text'].startswith(accepted_bullet['text'][:3]):
+                    good = False
+                    break
+            if good == True:
+                ret.append(bullet)
+                break
+    return ret
+
 def rank_resume(resume, things_to_look_for):
     assert type(resume) is dict
     def bullet_score(bullet):
@@ -34,7 +48,7 @@ def rank_resume(resume, things_to_look_for):
             if key == 'entries':
                 for entry in resume['entries']:
                     entry['bullets'].sort(key=bullet_score)
-                    entry['bullets'] = entry['bullets'][:4] # get first n things
+                    entry['bullets'] = get_n_bullets(entry['bullets'], 4)
         if type(resume[key]) is dict:
             rank_resume(resume[key], things_to_look_for)
     return resume

@@ -29,7 +29,7 @@ languages = {
         'java', 'javascript', 'j#', 'j++',
         'kotlin',
         'lua', 'limbo',
-        'matlab', 'mesa', 'modula-3', 'ml', 'monkey',
+        'matlab', 'mesa', 'modula-3', 'monkey',
         'nim', 'newsqueak', 'nil', 'nemerle',
         'objective-c', 'oberon', 'ocaml', 'oxygene',
         'perl', 'php', 'python',
